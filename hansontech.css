@@ -1,0 +1,141 @@
+
+
+body {
+    /* background-image: url('https://images.unsplash.com/photo-1684703153840-c26fe3056c41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;  */
+
+    /* background-color: rgb(255, 0, 0); */
+}
+
+
+/* 
+.bg {
+    background-image: url("https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute; 
+} */
+
+
+/* 
+@keyframes example {
+    0% {background-color: red; left: 0px; top: 0px}
+    25% {background-color: yellow; left: 200px; top: 0px}
+    50% {background-color: blue; left: 200px; top: 200px}
+    75% {background-color: green; left: 0px; top: 200px}
+    100% {background-color: red; left: 0px; top: 0px}
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+} */
+
+#first-child {
+    height: 100px;
+    width: 100px;
+    background: rgb(255, 0, 0);
+    position: relative;
+
+    }
+    .animate {
+    animation: myfirst 4s;
+    }
+  @keyframes myfirst {
+    0% {background-color: red; left: 0px; top: 0px}
+    25% {background-color: yellow; left: 200px; top: 0px}
+    50% {background-color: blue; left: 200px; top: 200px}
+    75% {background-color: green; left: 0px; top: 200px}
+    100% {background-color: red; left: 0px; top: 0px}
+    }
+
+  #second-parent {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+
+
+#title{
+    color:#001d91;
+
+    /* also gotten from google fonts*/
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    /* also gotten from google fonts*/
+    
+    /* border: 5px solid rgb(0, 181, 181); /* theres solid, dotted, find more idk */
+
+    padding: 43px;
+    background-color: lightgray;
+    margin: 30px;
+
+    /* padding is kina like spacing between the line border and the text
+    the margin is an invisable spacer from other elements. it is outside the border */
+
+    display:inline-block;
+}
+
+#toodo{
+    width: 260px
+}
+
+#grey{
+    color:grey
+
+}
+
+#subtitle{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+
+}
+
+.title-bar h4 {
+    display: inline-block;
+    margin: 0;
+}
+
+.title-bar a{
+    color:black;
+    text-decoration: none;
+}
+
+.title-bar a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+.title-bar {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.908), rgb(225, 225, 225));
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly; /*theres also "center" */
+    align-items: center;
+}
+
+#small{
+    font-size: 2px;
+}
+
+/* Add this in an external CSS file or within a <style> tag in your HTML */
+footer {
+    background-color: #838383;
+    color: white;
+    text-align: center;
+    padding: 13px;
+}
+
+footer p {
+    margin: 0;
+}

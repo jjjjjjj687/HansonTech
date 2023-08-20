@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<!--use stuff to make something like a store or just a about me page-->
+    <title>Jiaxiang's website: HTML, CSS, and Javascript</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Apple-logo.png/480px-Apple-logo.png" type="image/x-icon"> <!--picture-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> <!--this makes javaschipt easier, aka jqeury-->
+
+
+
+    <link rel="stylesheet" type="text/css" href="hansontech.css"> <!--this links the text.css file to this html document CHECK SPELLING OF HREF NOT HEFR-->
+
+
+
+   <!-- <link rel="shortcut icon" href="/users/Programming/Pictures/fries.png"> -->
+
+</head>
+
+<body>
+    <div class="title-bar">
+        <h4><a href="home.html">Home</a></h4>
+        <h4><a href="about.html">About Me</a></h4>
+        <h4><a href="hansontech.html">HTML CSS And Javascript</a></h4>
+        <h4><a href="testingOfDatabase.html">My database (UNDER CONSTRUCTION)</a></h4>
+        <h4><a href="news.html">News</a></h4>
+        <h4><a href="contact.html">Contact me</a></h4>
+    </div>
+
+    <div class="bg"></div>
+
+    <center><h1 id="title">HTML, CSS, And Javascript</h1></center>
+    <p id="subtitle">This website is entirely coded by me using HTML, CSS, and Javascript. I was able to do this because I took a fun little two-week course on how to program websites and I also I got some help from the internet. </p> <!-- <p id="grey">And no, that was not sarcasm.</p> -->
+    <!--HEY YOU if you want to specific style one or a few words in a paragraph without breaking it do this:  <span style="any type of css command here, like " color:rgb(96, 96, 96) ". "> enter some text here that you wanna change </span>   -->
+
+
+<!--, and of cource, Chat-GPT. I know what you are thinking: "Jiaxiang, isn't that cheating??" And I reply to that saying no, it's not cheating. So while letting Chat-GPT do your history essay IS considered cheating, understanding how the code Chat-GPT outputs works and modifying it to suit my own website ISN'T considered cheating. You hear that person infiltrating the html to dive into my mostly hand typed code????? >:( That's why I took a 2 week long half day class all about programming websites. This resulting website is my showcase.-->
+
+<br>
+<p>So with all of that said, here are some cool things that I can make with HTML, CSS, and Javascript!</p>
+
+    <input type="text" placeholder="Here's a ToDo list that took an hour to make:" id = "toodo">
+    
+    <button id="go">Add</button>
+
+    <br>
+
+
+    <div id="checkboxes">
+        
+        <!-- <input type = "checkbox" id = "a"/><span id = "aaa">Check!</span> -->
+
+    </div>
+
+
+    <br>
+
+    <p id="guress"></p>
+
+    <input type="text" placeholder="Guess a Number 1 to 100!" id = "num">
+
+    <button id="guess">Guess</button>
+
+    <br>
+
+    <p id="coolBox">Here's a cool box. Click the button. </p> 
+    <button id="second-parent">Button</button>
+    <br>
+    <br>
+    <div id="first-child"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>A simple calculator</p>
+    <input type="text" placeholder="first number" id = "firstnum">
+    <select id="operation">
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="multiply">*</option>
+        <option value="divide">/</option>
+    </select>
+    <input type="text" placeholder="second number" id = "secondnum">
+    <button id="add">Calculate</button>
+    <div id="answer"></div>
+
+    <br>
+
+    <p>Mad libs, anyone?</p>
+    <input type="text" placeholder="adjective" id="adjective">
+    <input type="text" placeholder="emotion" id="emotion">
+    <input type="text" placeholder="verb" id="verb">
+    <input type="text" placeholder="noun" id="noun">
+    <input type="text" placeholder="time(Like 2pm)" id="time">
+    <input type="text" placeholder="adverb" id="adverb">
+    <input type="text" placeholder="place" id="place">
+    <input type="text" placeholder="noun" id="noun2">
+    <input type="text" placeholder="adjective" id="adjective2">
+    <input type="text" placeholder="adjective" id="adjective3">
+    <input type="text" placeholder="noun" id="noun3">
+    <input type="text" placeholder="food" id="food">
+    <input type="text" placeholder="food" id="food2">
+    <input type="text" placeholder="thing that can move" id="veacle">
+    <button id="madlibs">Generate Story!</button>
+    <div id="story"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+<script src="hansontech.js"></script>
+
+<footer>
+
+    <p>&copy; 2023 HansonTech. All rights reserved.</p>
+    
+    <p id = "small">01000010 01111001 00100000 01100001 01100011 01100011 01100101 01110011 01110011 01101001 01101110 01100111 00100000 01110100 01101000 01101001 01110011 00100000 01110111 01100101 01100010 01110011 01101001 01110100 01100101 00101100 00100000 01111001 01101111 01110101 00100000 01100001 01100111 01110010 01100101 01100101 00100000 01110100 01101111 00100000 01100001 01100011 01101011 01101110 01101111 01110111 01101100 01100101 01100100 01100111 01100101 00100000 01110100 01101000 01100001 01110100 00100000 01100001 01101100 01101100 00100000 01101001 01101110 01110011 01110100 01100001 01101110 01100011 01100101 01110011 00100000 01101111 01100110 00100000 01100001 01100011 01101011 01101110 01101111 01110111 01101100 01100101 01100100 01100111 01101101 01100101 01101110 01110100 00100000 01100001 01110010 01100101 00100000 01110000 01110101 01110010 01100101 01101100 01111001 00100000 01100001 01100011 01100011 01101001 01100100 01100101 01101110 01110100 01100001 01101100 00100000 01100001 01101110 01100100 00100000 01110000 01101100 01100001 01101110 01101110 01100101 01100100 00101110 00100000 01000001 01101110 01111001 00100000 01100001 01110100 01110100 01100101 01101101 01110000 01110100 00100000 01110100 01101111 00100000 01110100 01100001 01101011 01100101 00100000 01110100 01101000 01101001 01101110 01100111 01110011 00100000 01110100 01101111 01101111 00100000 01110011 01100101 01110010 01101001 01101111 01110101 01110011 01101100 01111001 00100000 01110111 01101001 01101100 01101100 00100000 01110010 01100101 01110011 01110101 01101100 01110100 00100000 01101001 01101110 00100000 01101001 01101101 01101101 01100101 01100100 01101001 01100001 01110100 01100101 00100000 01110010 01100101 01100100 01101001 01110010 01100101 01100011 01110100 01101001 01101111 01101110 00100000 01110100 01101111 00100000 01100001 00100000 01100011 01101111 01101100 01101100 01100101 01100011 01110100 01101001 01101111 01101110 00100000 01101111 01100110 00100000 01100110 01110101 01101110 01101110 01111001 00100000 01100011 01100001 01110100 00100000 01110110 01101001 01100100 01100101 01101111 01110011 00101110</p>
+    
+</footer>
+
+
+</html>
+
